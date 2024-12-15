@@ -82,8 +82,8 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"text": "<p>I’m a PHP developer with <b>over a decade</b> of experience, specializing in backend development with some frontend work as well. I also have hands-on experience with C++, C#, Go, and Python in production environments.</p><p>This diverse background gives me the flexibility to adapt to a wide range of project needs.</p><p>I look forward to collaborating <b>with you!</b>"},
-                        "fr": {"text": "<p>Je suis développeur PHP avec <b>plus d'une décennie</b> d'expérience, spécialisé dans le développement backend avec un peu de travail en frontend également. J'ai aussi de l'expérience en production avec les technologies C++, C#, Go et Python.</p><p>Ce parcours diversifié me permet de m'adapter à une large gamme de besoins de projets.</p><p>Je suis impatient de collaborer <b>avec vous !</b></p>"} 
+                        "en": {"text": "<p>I am a Full-Stack Developer with over 5 years of experience, specializing in building high-performance, scalable web applications tailored to meet unique client needs. </p><p>My backend expertise in <b>Node.js</b> is complemented by advanced frontend skills with <b>React</b>. </p><p>I have worked on a variety of projects leveraging <b>cloud</b> tools, technologies such as <b>Angular</b> and <b>Flutter</b>, and quality assurance platforms like <b>SonarCloud</b>. </p><p>These experiences have enabled me to excel in redesigning critical systems, optimizing performance, and implementing innovative features. </p><p>Always attentive to my clients' needs, I am passionate about turning your ideas into robust, effective solutions. Let’s collaborate to bring your projects to life!</p>"},
+                        "fr": {"text": "<p>Développeur Full-Stack avec plus de 5 ans d'expérience, je suis spécialisé dans la création d'applications web performantes, évolutives et adaptées aux besoins spécifiques de mes clients. </p><p>Mon expertise backend avec <b>Node.js</b> s'accompagne de compétences avancées en développement frontend grâce à <b>React</b>.</p><p>J'ai eu l'opportunité de travailler sur des projets diversifiés, intégrant des outils <b>cloud</b>, des technologies comme <b>Angular</b> et <b>Flutter</b>, ainsi que des plateformes de qualité telles que <b>SonarCloud</b>. </p><p>Ces expériences m'ont permis de maîtriser la refonte de systèmes critiques, l'optimisation des performances et l'implémentation de fonctionnalités innovantes.</p><p>Toujours à l’écoute des besoins de mes partenaires, je suis enthousiaste à l'idée de transformer vos idées en solutions concrètes, robustes et efficaces. Travaillons ensemble pour donner vie à vos projets !</p>"} 
                     }
                 }
             ]
@@ -100,31 +100,31 @@
 
             "items": [
                 {
-                    "value": "Anita Bath",
+                    "value": "L.Alexis",
                     "links": [
                         {"href": "https://linkedin.com"}
                     ],
                     "icon": {
-                        "img": "images/pictures/person-1.png",
+                        "img": "images/pictures/person-3.png",
                         "fa": "fa-solid fa-user",
                         "faColors": null
                     },
                     "locales": {
                         "en": {
-                            "info": "CEO at <b>SalesForce</b>",
+                            "info": "<b>Architect</b>",
                             "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
                         },
                         "fr": {
-                            "info": "PDG de <b>SalesForce</b>",
+                            "info": "<b>Architecte</b>",
                             "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
                         } 
                     }
                 },
 
                 {
-                    "value": "Lou Natic",
+                    "value": "A.Marc",
                     "links": [
-                        {"href": "https://github.com"}
+                        {"href": "https://linkedin.com"}
                     ],
                     "icon": {
                         "img": "images/pictures/person-3.png",
@@ -133,55 +133,55 @@
                     },
                     "locales": {
                         "en": {
-                            "info": "Lead Developer at <b>GitHub</b>",
+                            "info": "<b>Backend developer</b>",
                             "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
                         },
                         "fr": {
-                            "info": "Développeur Principal chez <b>GitHub </b>",
+                            "info": "<b>Backend developer</b>",
                             "text": "Avoir Mark dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
                         } 
                     }
                 },
 
                 {
-                    "value": "Paige Turner",
+                    "value": "S.Romuald",
                     "links": [
-                        {"href": null}
+                        {"href": "https://linkedin.com"}
                     ],
                     "icon": {
-                        "img": "images/pictures/person-2.png",
+                        "img": "images/pictures/person-3.png",
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
                         "en": {
-                            "info": "Managing Director at <b>Dingga</b>",
+                            "info": "<b>Product Owner</b>",
                             "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
                         },
                         "fr": {
-                            "info": "Directrice Générale chez <b>Dingga</b>",
+                            "info": "<b>Product Owner</b>",
                             "text": "Collaborer avec Mark a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
                         } 
                     }
                 },
 
                 {
-                    "value": "Chris P. Bacon",
+                    "value": "B.Vincent",
                     "links": [
-                        {"href": "https://dribbble.com"}
+                        {"href": "https://linkedin.com"}
                     ],
                     "icon": {
-                        "img": "images/pictures/person-4.png",
+                        "img": "images/pictures/person-3.png",
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
                         "en": {
-                            "info": "Creative Director at <b>Dribbble</b>",
+                            "info": "<b>Product Owner</b>",
                             "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
                         },
                         "fr": {
-                            "info": "Directrice Créative chez <b>Dribbble</b>",
+                            "info": "<b>Product Owner</b>",
                             "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
                         } 
                     }
