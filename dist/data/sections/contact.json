@@ -6,12 +6,6 @@
             "title_long": "**Contact** Me"
         },
 
-        "es": {
-            "title": "Contacto",
-            "title_long_prefix": "No dudes en",
-            "title_long": "**Contácta**me"
-        },
-
         "fr": {
             "title": "Contact",
             "title_long_prefix": "N'hésitez pas à",
@@ -26,7 +20,6 @@
             "config": {},
             "locales": {
                 "en": {"title": "Send me a **message**"},
-                "es": {"title": "Envíame un **mensaje**"},
                 "fr": {"title": "Envoyez-moi un **message**"}
             },
 
@@ -41,7 +34,6 @@
             },
             "locales": {
                 "en": {"title": "Or if you **prefer**..."},
-                "es": {"title": "O si **prefieres**..."},
                 "fr": {"title": "Ou si vous **préférez**..."}
             },
 
@@ -58,15 +50,14 @@
                     },
                     "locales": {
                         "en": {"title": "Phone"},
-                        "es": {"title": "Teléfono"},
                         "fr": {"title": "Téléphone"}
                     }
                 },
 
                 {
-                    "value": "mark.choi@email.com",
+                    "value": "amine-fathallah-dev@gmail.com",
                     "links": [
-                        {"href": "mailto:mark.choi@email.com"}
+                        {"href": "mailto:amine-fathallah-dev@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -79,7 +70,7 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@amine-fathallah-dev",
                     "links": [
                         {"href": "https://linkedin.com"}
                     ],
@@ -94,7 +85,7 @@
                 },
 
                 {
-                    "value": "Mark Choi",
+                    "value": "Amine Fathallah",
                     "links": [
                         {"href": "https://facebook.com"}
                     ],
@@ -109,7 +100,7 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@amine-fathallah-dev",
                     "links": [
                         {"href": "https://instagram.com"}
                     ],
@@ -124,7 +115,7 @@
                 },
 
                 {
-                    "value": "@markchoi",
+                    "value": "@amine-fathallah-dev",
                     "links": [
                         {"href": "https://tiktok.com"}
                     ],

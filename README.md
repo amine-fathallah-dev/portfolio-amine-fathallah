@@ -186,11 +186,6 @@ For translations specific to sections, you can create a custom `locales` field i
         "en": {
             "hello": "Hello!",
             "age": "Age"
-        },
-        
-        "es": {
-            "hello": "Hola!",
-            "age": "Edad"
         }
     }
 }

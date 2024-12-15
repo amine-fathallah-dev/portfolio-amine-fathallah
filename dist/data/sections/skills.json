@@ -6,12 +6,6 @@
             "title_long": "My **Skill Set**"
         },
 
-        "es": {
-            "title": "Habilidades",
-            "title_long_prefix": "Explora",
-            "title_long": "Mis **Habilidades**"
-        },
-
         "fr": {
             "title": "Capacités",
             "title_long_prefix": "Explorez",
@@ -38,10 +32,6 @@
                             "title": "**Website** design",
                             "text": "I can bring your best ideas into life!"
                         },
-                        "es": {
-                            "title": "Diseño de **sitios web**",
-                            "text": "¡Puedo hacer realidad tus mejores ideas!"
-                        },
                         "fr": {
                             "title": "Conception de **sites web**",
                             "text": "Je peux donner vie à vos meilleures idées !"
@@ -59,10 +49,6 @@
                         "en": {
                             "title": "**Database** management",
                             "text": "I can handle your data effectively!"
-                        },
-                        "es": {
-                            "title": "Gestión de **bases de datos**",
-                            "text": "¡Puedo gestionar tus datos de manera eficaz!"
                         },
                         "fr": {
                             "title": "Gestion de **bases de données**",
@@ -82,10 +68,6 @@
                             "title": "**App** creation",
                             "text": "I can make creative and innovative apps!"
                         },
-                        "es": {
-                            "title": "Creación de **aplicaciones**",
-                            "text": "¡Puedo crear aplicaciones creativas e innovadoras!"
-                        },
                         "fr": {
                             "title": "Création d'**applications**",
                             "text": "Je peux créer des applications créatives et innovantes !"
@@ -104,10 +86,6 @@
                             "title": "REST **APIs**",
                             "text": "I can build API services!"
                         },
-                        "es": {
-                            "title": "APIs **REST**",
-                            "text": "¡Puedo crear servicios API!"
-                        },
                         "fr": {
                             "title": "APIs **REST**",
                             "text": "Je peux créer des services API !"
@@ -125,10 +103,6 @@
                         "en": {
                             "title": "Information **Security**",
                             "text": "Security is my middle name!"
-                        },
-                        "es": {
-                            "title": "**Seguridad** de la información",
-                            "text": "¡La seguridad es mi segundo nombre!"
                         },
                         "fr": {
                             "title": "**Sécurité** de l'information",
@@ -442,7 +416,6 @@
             "config": {},
             "locales": {
                 "en": { "title": "Languages" },
-                "es": { "title": "Idiomas" },
                 "fr": { "title": "Langues" } 
             },
 
@@ -460,11 +433,6 @@
                             "title": "English",
                             "info": "Native speaker with excellent communication and writing skills.",
                             "tags": ["Native"]
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "info": "Hablante nativo con excelentes habilidades de comunicación y escritura.",
-                            "tags": ["Nativo"]
                         },
                         "fr": {
                             "title": "Anglais",
@@ -488,69 +456,10 @@
                             "info": "Fluent in both spoken and written French; confident in professional communication.",
                             "tags": ["Fluent"]
                         },
-                        "es": {
-                            "title": "Francés",
-                            "info": "Fluido en francés hablado y escrito; seguro en la comunicación profesional.",
-                            "tags": ["Fluido"]
-                        },
                         "fr": {
                             "title": "Français",
                             "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
                             "tags": ["Courant"]
-                        } 
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/vn.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Vietnamese",
-                            "info": "Intermediate proficiency in Vietnamese language; can hold conversations and understand written text.",
-                            "tags": ["Intermediate"]
-                        },
-                        "es": {
-                            "title": "Vietnamita",
-                            "info": "Competencia intermedia en el idioma vietnamita; puede mantener conversaciones y entender textos escritos.",
-                            "tags": ["Intermedio"]
-                        },
-                        "fr": {
-                            "title": "Vietnamien",
-                            "info": "Compétence intermédiaire en vietnamien; peut tenir des conversations et comprendre des textes écrits.",
-                            "tags": ["Intermédiaire"]
-                        } 
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": "images/flags/ko.png",
-                        "fa": null,
-                        "faColors": { "bg": null, "fill": null }
-                    },
-                    "value": null,
-                    "dates": { "start": null },
-                    "locales": {
-                        "en": {
-                            "title": "Korean",
-                            "info": "Basic understanding of Korean; learning and improving.",
-                            "tags": ["Basic"]
-                        },
-                        "es": {
-                            "title": "Coreano",
-                            "info": "Comprensión básica del coreano; aprendiendo y mejorando.",
-                            "tags": ["Básico"]
-                        },
-                        "fr": {
-                            "title": "Coréen",
-                            "info": "Compréhension de base du coréen; en apprentissage et amélioration.",
-                            "tags": ["Basique"]
                         } 
                     }
                 }

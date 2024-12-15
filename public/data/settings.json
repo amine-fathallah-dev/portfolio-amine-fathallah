@@ -17,7 +17,6 @@
 
         "locales": {
             "en": {"role": "Web Developer"},
-            "es": {"role": "Desarrollador Web"},
             "fr": {"role": "Développeur Web"}
         }
     },
@@ -28,7 +27,6 @@
 
         "locales": {
             "en": {"message": "Available for freelance!"},
-            "es": {"message": "¡Disponible para freelance!"},
             "fr": {"message": "Disponible pour freelance !"}
         }
     },
@@ -53,12 +51,6 @@
             "id": "en",
             "flagUrl": "images/flags/en.png",
             "default": true
-        },
-
-        {
-            "name": "Español",
-            "id": "es",
-            "flagUrl": "images/flags/es.png"
         },
 
         {
