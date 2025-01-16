@@ -204,25 +204,6 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-guitar",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Playing guitar",
-                            "info": "Exploring different genres and improving my skills."
-                        },
-                        "fr": {
-                            "title": "Jouer de la guitare",
-                            "info": "Explorer différents genres et améliorer mes compétences."
-                        } 
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
                         "fa": "fa-solid fa-video",
                         "faColors": null
                     },
@@ -235,25 +216,6 @@
                         "fr": {
                             "title": "Montage vidéo avec IA",
                             "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
-                        } 
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-paint-brush",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "Illustration",
-                            "info": "Practicing digital art and exploring new styles."
-                        },
-                        "fr": {
-                            "title": "Illustration",
-                            "info": "Pratiquer l'art numérique et explorer de nouveaux styles."
                         } 
                     }
                 },

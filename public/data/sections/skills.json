@@ -143,57 +143,6 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-java",
-                        "faColors": {"bg": "#007396", "fill": "#EEE"}
-                    },
-                    "value": 90,
-                    "dates": {
-                        "start": "03/10/2019"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Java 11+",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-python",
-                        "faColors": {"bg": "#306998", "fill": "#EEE"}
-                    },
-                    "value": 85,
-                    "dates": {
-                        "start": "06/20/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Python 3.x",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-gem",
-                        "faColors": {"bg": "#CC0000", "fill": "#EEE"}
-                    },
-                    "value": 80,
-                    "dates": {
-                        "start": "08/30/2020"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Ruby on Rails",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
                         "fa": "fa-solid fa-database",
                         "faColors": {"bg": "#4479A1", "fill": "#EEE"}
                     },
@@ -221,23 +170,6 @@
                     "locales": {
                         "en": {
                             "title": "Docker",
-                            "info": null
-                        }
-                    }
-                },
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-php",
-                        "faColors": {"bg": "#FFD700", "fill": "#111"}
-                    },
-                    "value": 100,
-                    "dates": {
-                        "start": "09/01/2018"
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "PHP 8.0+",
                             "info": null
                         }
                     }
@@ -403,6 +335,132 @@
                     "locales": {
                         "en": {
                             "title": "Bootstrap",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "testing_quality",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Testing & Quality"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-cuttlefish",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": "09/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Cypress",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-js",
+                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "01/15/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Jest",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-flutter",
+                        "faColors": {"bg": "#F7DF1E", "fill": "#111"}
+                    },
+                    "value": 90,
+                    "dates": {
+                        "start": "03/10/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Flutter tests",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-cloud",
+                        "faColors": {"bg": "#61DAFB", "fill": "#111"}
+                    },
+                    "value": 95,
+                    "dates": {
+                        "start": "06/20/2020"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "SonarCloud",
+                            "info": null
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "repository",
+            "component": "ArticleList",
+            "config": {},
+            "locales": {
+                "en": {"title": "Repository"}
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-git",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
+                    },
+                    "value": 100,
+                    "dates": {
+                        "start": "09/01/2018"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Git",
+                            "info": null
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-gitlab",
+                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                    },
+                    "value": 65,
+                    "dates": {
+                        "start": "01/15/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Gitlab",
                             "info": null
                         }
                     }
