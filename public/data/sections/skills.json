@@ -131,7 +131,7 @@
                     },
                     "value": 95,
                     "dates": {
-                        "start": "01/15/2019"
+                        "start": "01/01/2020"
                     },
                     "locales": {
                         "en": {
@@ -148,7 +148,7 @@
                     },
                     "value": 90,
                     "dates": {
-                        "start": "10/10/2020"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
@@ -163,9 +163,9 @@
                         "fa": "fa-brands fa-docker",
                         "faColors": {"bg": "#2496ED", "fill": "#EEE"}
                     },
-                    "value": 60,
+                    "value": 80,
                     "dates": {
-                        "start": "04/15/2021"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
@@ -182,7 +182,7 @@
                     },
                     "value": 80,
                     "dates": {
-                        "start": "07/10/2021"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
@@ -197,9 +197,9 @@
                         "fa": "fa-solid fa-server",
                         "faColors": {"bg": "#47A248", "fill": "#EEE"}
                     },
-                    "value": 50,
+                    "value": 90,
                     "dates": {
-                        "start": "05/20/2024"
+                        "start": "01/01/2020"
                     },
                     "locales": {
                         "en": {
@@ -211,16 +211,16 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-git",
+                        "fa": "fa-brands fa-google",
                         "faColors": {"bg": "#F05032", "fill": "#111"}
                     },
-                    "value": 95,
+                    "value": 90,
                     "dates": {
-                        "start": "01/01/2018"
+                        "start": "01/01/2022"
                     },
                     "locales": {
                         "en": {
-                            "title": "Git",
+                            "title": "Google Cloud",
                             "info": null
                         }
                     }
@@ -245,7 +245,7 @@
                     },
                     "value": 100,
                     "dates": {
-                        "start": "09/01/2018"
+                        "start": "01/01/2020"
                     },
                     "locales": {
                         "en": {
@@ -260,9 +260,9 @@
                         "fa": "fa-brands fa-css3",
                         "faColors": {"bg": "#1572B6", "fill": "#EEE"}
                     },
-                    "value": 65,
+                    "value": 95,
                     "dates": {
-                        "start": "01/15/2019"
+                        "start": "01/01/2020"
                     },
                     "locales": {
                         "en": {
@@ -277,13 +277,13 @@
                         "fa": "fa-brands fa-js",
                         "faColors": {"bg": "#F7DF1E", "fill": "#111"}
                     },
-                    "value": 90,
+                    "value": 95,
                     "dates": {
-                        "start": "03/10/2020"
+                        "start": "01/01/2020"
                     },
                     "locales": {
                         "en": {
-                            "title": "JavaScript ES6+",
+                            "title": "JavaScript ES6+ TypeScript",
                             "info": null
                         }
                     }
@@ -296,7 +296,7 @@
                     },
                     "value": 95,
                     "dates": {
-                        "start": "06/20/2020"
+                        "start": "01/01/2020"
                     },
                     "locales": {
                         "en": {
@@ -308,16 +308,16 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-vuejs",
-                        "faColors": {"bg": "#4FC08D", "fill": "#111"}
+                        "fa": "fa-brands fa-flutter",
+                        "faColors": {"bg": "#2496ED", "fill": "#EEE"}
                     },
-                    "value": 40,
+                    "value": 75,
                     "dates": {
-                        "start": "08/30/2023"
+                        "start": "01/01/2024"
                     },
                     "locales": {
                         "en": {
-                            "title": "Vue.js",
+                            "title": "Flutter",
                             "info": null
                         }
                     }
@@ -325,16 +325,16 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-brands fa-bootstrap",
-                        "faColors": {"bg": "#7952B3", "fill": "#EEE"}
+                        "fa": "fa-brands fa-angular",
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
                     },
-                    "value": 90,
+                    "value": 75,
                     "dates": {
-                        "start": "02/10/2021"
+                        "start": "01/01/2024"
                     },
                     "locales": {
                         "en": {
-                            "title": "Bootstrap",
+                            "title": "Angular",
                             "info": null
                         }
                     }
@@ -452,9 +452,9 @@
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-gitlab",
-                        "faColors": {"bg": "#1572B6", "fill": "#EEE"}
+                        "faColors": {"bg": "#E34F26", "fill": "#EEE"}
                     },
-                    "value": 65,
+                    "value": 85,
                     "dates": {
                         "start": "01/15/2019"
                     },
@@ -474,9 +474,8 @@
             "config": {},
             "locales": {
                 "en": { "title": "Languages" },
-                "fr": { "title": "Langues" } 
+                "fr": { "title": "Langues" }
             },
-
             "items": [
                 {
                     "icon": {
@@ -489,17 +488,16 @@
                     "locales": {
                         "en": {
                             "title": "English",
-                            "info": "Fluent in both spoken and written English; confident in professional communication.",
-                            "tags": ["Fluent"]
+                            "info": "Highly proficient in both written and spoken English, capable of handling technical discussions, presentations, and documentation.",
+                            "tags": ["Professional"]
                         },
                         "fr": {
                             "title": "Anglais",
-                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
-                            "tags": ["Courant"]
-                        } 
+                            "info": "Très à l'aise à l'écrit et à l'oral, capable de gérer des discussions techniques, des présentations et de la documentation.",
+                            "tags": ["Professionnel"]
+                        }
                     }
                 },
-
                 {
                     "icon": {
                         "img": "images/flags/fr.png",
@@ -511,17 +509,18 @@
                     "locales": {
                         "en": {
                             "title": "French",
-                            "info": "Fluent in both spoken and written French; confident in professional communication.",
+                            "info": "Fluent in both conversational and technical French, suitable for professional environments and written communication.",
                             "tags": ["Fluent"]
                         },
                         "fr": {
                             "title": "Français",
-                            "info": "Fluent à l'oral et à l'écrit; confiant dans la communication professionnelle.",
+                            "info": "Courant à l'écrit et à l'oral, adapté aux environnements professionnels et à la communication écrite.",
                             "tags": ["Courant"]
-                        } 
+                        }
                     }
                 }
             ]
-        }
+        }        
+        
     ]
 }
