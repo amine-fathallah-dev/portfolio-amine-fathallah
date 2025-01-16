@@ -55,9 +55,9 @@
                 },
 
                 {
-                    "value": "amine-fathallah-dev@gmail.com",
+                    "value": "amine.fathallah.dev@gmail.com",
                     "links": [
-                        {"href": "mailto:amine-fathallah-dev@gmail.com"}
+                        {"href": "mailto:amine.fathallah.dev@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -72,7 +72,7 @@
                 {
                     "value": "@amine-fathallah-dev",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/amine-fathallah-96739186/"}
                     ],
                     "icon": {
                         "img": null,
@@ -81,51 +81,6 @@
                     },
                     "locales": {
                         "en": {"title": "Linkedin"}
-                    }
-                },
-
-                {
-                    "value": "Amine Fathallah",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@amine-fathallah-dev",
-                    "links": [
-                        {"href": "https://instagram.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-instagram",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@amine-fathallah-dev",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
                     }
                 }
             ]

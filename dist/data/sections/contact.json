@@ -10,7 +10,7 @@
             "title": "Contact",
             "title_long_prefix": "N'hésitez pas à",
             "title_long": "Me **Contacter**"
-        }
+        } 
     },
 
     "articles": [
@@ -20,7 +20,7 @@
             "config": {},
             "locales": {
                 "en": {"title": "Send me a **message**"},
-                "fr": {"title": "Envoyez-moi un **message**"}
+                "fr": {"title": "Envoyez-moi un **message**"} 
             },
 
             "items": null
@@ -34,14 +34,14 @@
             },
             "locales": {
                 "en": {"title": "Or if you **prefer**..."},
-                "fr": {"title": "Ou si vous **préférez**..."}
+                "fr": {"title": "Ou si vous **préférez**..."} 
             },
 
             "items": [
                 {
-                    "value": "+1 (123) 456-7890",
+                    "value": "+33 7 69 57 44 11",
                     "links": [
-                        {"href": "tel:11234567890"}
+                        {"href": "tel:0033769574411"}
                     ],
                     "icon": {
                         "img": null,
@@ -50,14 +50,14 @@
                     },
                     "locales": {
                         "en": {"title": "Phone"},
-                        "fr": {"title": "Téléphone"}
+                        "fr": {"title": "Téléphone"} 
                     }
                 },
 
                 {
-                    "value": "amine-fathallah-dev@gmail.com",
+                    "value": "amine.fathallah.dev@gmail.com",
                     "links": [
-                        {"href": "mailto:amine-fathallah-dev@gmail.com"}
+                        {"href": "mailto:amine.fathallah.dev@gmail.com"}
                     ],
                     "icon": {
                         "img": null,
@@ -65,14 +65,14 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
-                        "en": {"title": "E-mail"}
+                        "en": {"title": "E-mail"} 
                     }
                 },
 
                 {
                     "value": "@amine-fathallah-dev",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {"href": "https://www.linkedin.com/in/amine-fathallah-96739186/"}
                     ],
                     "icon": {
                         "img": null,
@@ -81,51 +81,6 @@
                     },
                     "locales": {
                         "en": {"title": "Linkedin"}
-                    }
-                },
-
-                {
-                    "value": "Amine Fathallah",
-                    "links": [
-                        {"href": "https://facebook.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-facebook",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Facebook"}
-                    }
-                },
-
-                {
-                    "value": "@amine-fathallah-dev",
-                    "links": [
-                        {"href": "https://instagram.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-instagram",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "Instagram"}
-                    }
-                },
-
-                {
-                    "value": "@amine-fathallah-dev",
-                    "links": [
-                        {"href": "https://tiktok.com"}
-                    ],
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-brands fa-tiktok",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "locales": {
-                        "en": {"title": "TikTok"}
                     }
                 }
             ]
