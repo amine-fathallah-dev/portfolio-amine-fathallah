@@ -80,13 +80,13 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Preparatory Classes in Computer Science",
+                            "title": "**Preparatory Classes** in Computer Science",
                             "info": "IPEIN - Preparatory Institute for Engineering Studies of Nabeul",
                             "text": "Intensive two-year program focused on advanced mathematics, physics, and computer science fundamentals.",
                             "tags": ["Mathematics", "Physics", "Algorithms"]
                         },
                         "fr": {
-                            "title": "Classes Préparatoires en Informatique",
+                            "title": "**Classes Préparatoires** en Informatique",
                             "info": "IPEIN - Institut Préparatoire aux Études d'Ingénieur de Nabeul",
                             "text": "Programme intensif de deux ans axé sur les mathématiques avancées, la physique et les fondamentaux en informatique.",
                             "tags": ["Mathématiques", "Physique", "Algorithmes"]
@@ -105,13 +105,13 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Full Stack JavaScript Bootcamp",
+                            "title": "Full Stack JavaScript **Bootcamp**",
                             "info": "GoMyCode",
                             "text": "Completed a full-stack web development bootcamp, focusing on MERN stack (MongoDB, Express.js, React, Node.js) and algorithm fundamentals. This program provided hands-on experience in building full-stack applications and reinforced core problem-solving skills.",
                             "tags": ["MERN Stack", "Web Development", "Algorithms"]
                         },
                         "fr": {
-                            "title": "Bootcamp Full Stack JavaScript",
+                            "title": "**Bootcamp** Full Stack JavaScript",
                             "info": "GoMyCode",
                             "text": "Suivi d'un bootcamp intensif en développement web full-stack, axé sur la pile MERN (MongoDB, Express.js, React, Node.js) et les bases des algorithmes. Ce programme a permis d'acquérir une expérience pratique dans la création d'applications full-stack et a renforcé les compétences en résolution de problèmes.",
                             "tags": ["MERN Stack", "Développement Web", "Algorithmes"]
