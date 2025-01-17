@@ -29,7 +29,7 @@ function FilterTabButton({item, isSelected, onClick}) {
 
     const customBtnClass = isSelected ? `btn-selected` : null
     const tooltipText = getString('filter_by').replace('{x}', item.label)
-    const label = item.label + (item.count ? ` (${item.count})` : '')
+    const label = item.label + (item.count ? ` (${item.count})` : ' (0)')
 
     const _onClick = (e) => {
         onClick(item)
