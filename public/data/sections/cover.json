@@ -112,15 +112,14 @@
                     "locales": {
                         "en": {
                             "info": "<b>Architect</b>",
-                            "text": "Working with Mark was a transformative experience. His programming skills and dedication not only improved our project but also inspired the entire team."
+                            "text": "Amine's full-stack expertise, especially with React and Node.js, greatly enhanced our projects. His innovative approach and dedication were key to our success."
                         },
                         "fr": {
                             "info": "<b>Architecte</b>",
-                            "text": "Travailler avec Mark a été une expérience transformative. Ses compétences en programmation et son dévouement ont non seulement amélioré notre projet, mais ont également inspiré toute l'équipe."
-                        } 
+                            "text": "L'expertise full-stack d'Amine, notamment avec React et Node.js, a considérablement amélioré nos projets. Son approche innovante et son dévouement ont été essentiels à notre succès."
+                        }
                     }
                 },
-
                 {
                     "value": "A.Marc",
                     "links": [
@@ -133,16 +132,15 @@
                     },
                     "locales": {
                         "en": {
-                            "info": "<b>Backend developer</b>",
-                            "text": "Having Mark on our team was an invaluable asset. His deep programming insights and mentorship not only elevated our projects but also empowered us to tackle every challenge with confidence and creativity."
+                            "info": "<b>Full-Stack Developer</b>",
+                            "text": "Amine's frontend and backend expertise brought our projects to new heights. His innovative mindset and dedication inspired the team."
                         },
                         "fr": {
-                            "info": "<b>Backend developer</b>",
-                            "text": "Avoir Mark dans notre équipe a été un atout inestimable. Ses connaissances approfondies en programmation et son mentorat ont non seulement élevé nos projets, mais nous ont également permis de relever chaque défi avec confiance."
-                        } 
+                            "info": "<b>Développeur Full-Stack</b>",
+                            "text": "L'expertise frontend et backend d'Amine a porté nos projets à un niveau supérieur. Son esprit innovant et son dévouement ont inspiré l'équipe."
+                        }
                     }
                 },
-
                 {
                     "value": "S.Romuald",
                     "links": [
@@ -156,15 +154,14 @@
                     "locales": {
                         "en": {
                             "info": "<b>Product Owner</b>",
-                            "text": "Collaborating with Mark was a game changer for our development process. His expertise and problem-solving abilities were invaluable to our success."
+                            "text": "Amine's ability to connect frontend and backend ensured our vision became impactful solutions. His dedication made a big difference."
                         },
                         "fr": {
                             "info": "<b>Product Owner</b>",
-                            "text": "Collaborer avec Mark a été un tournant pour notre processus de développement. Son expertise et ses capacités à résoudre des problèmes ont été inestimables pour notre succès."
-                        } 
+                            "text": "La capacité d'Amine à relier le frontend et le backend a permis de transformer notre vision en solutions impactantes. Son dévouement a fait une grande différence."
+                        }
                     }
                 },
-
                 {
                     "value": "B.Vincent",
                     "links": [
@@ -178,15 +175,16 @@
                     "locales": {
                         "en": {
                             "info": "<b>Product Owner</b>",
-                            "text": "Mark's attention to detail and his innovative thinking brought a fresh perspective to our design process. He truly elevated our team's work and helped us deliver results beyond expectations."
+                            "text": "Amine's skills and solutions brought efficiency to our projects, ensuring outstanding results."
                         },
                         "fr": {
                             "info": "<b>Product Owner</b>",
-                            "text": "L'attention aux détails de Mark et sa pensée innovante ont apporté une nouvelle perspective à notre processus de design. Il a véritablement élevé le travail de notre équipe et nous a aidés à livrer des résultats au-delà des attentes."
-                        } 
+                            "text": "Les compétences d'Amine et ses solutions ont apporté de l'efficacité à nos projets, garantissant des résultats exceptionnels."
+                        }
                     }
                 }
             ]
+
         },
 
         {
@@ -204,37 +202,18 @@
                 {
                     "icon": {
                         "img": null,
-                        "fa": "fa-solid fa-video",
-                        "faColors": null
-                    },
-                    "value": null,
-                    "locales": {
-                        "en": {
-                            "title": "AI video editing",
-                            "info": "Learning to use AI tools to enhance my videos."
-                        },
-                        "fr": {
-                            "title": "Montage vidéo avec IA",
-                            "info": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
-                        } 
-                    }
-                },
-
-                {
-                    "icon": {
-                        "img": null,
-                        "fa": "fa-solid fa-chart-line",
+                        "fa": "fa-brands fa-bitcoin",
                         "faColors": null
                     },
                     "value": null,
                     "locales": {
                         "en": {
                             "title": "Investing",
-                            "info": "Learning the basics of stocks and personal finance."
+                            "info": "Exploring cryptocurrency markets and learning blockchain technology."
                         },
                         "fr": {
                             "title": "Investir",
-                            "info": "Apprendre les bases des actions et des finances personnelles."
+                            "info": "Explorer les marchés des cryptomonnaies et apprendre la technologie blockchain."
                         } 
                     }
                 },
