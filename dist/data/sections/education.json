@@ -5,48 +5,44 @@
             "title_long_prefix": "This is my",
             "title_long": "**Educational** Background"
         },
-
         "fr": {
             "title": "Éducation",
             "title_long_prefix": "C'est mon",
-            "title_long": "**Contexte** Éducatif"
-        }
+            "title_long": "**Parcours** Éducatif"
+        } 
     },
-
     "articles": [
         {
             "id": "academic",
             "component": "ArticleTimeline",
             "config": {},
             "locales": {},
-
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/place-5.png",
+                        "img": "images/pictures/place-1.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "01/01/2015",
-                        "end": "12/01/2019"
+                        "start": "09/01/2012",
+                        "end": "06/30/2015"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Bachelor** in Computer Science",
-                            "info": "MIT",
-                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
-                            "tags": []
+                            "title": "**Engineering Degree** in Industrial Computing",
+                            "info": "ENIM - National Engineering School of Monastir",
+                            "text": "Specialized in industrial systems and embedded software. Completed practical projects in automation and system design.",
+                            "tags": ["Embedded Systems", "Automation", "C++"]
                         },
                         "fr": {
-                            "title": "**Licence** en Informatique",
-                            "info": "MIT",
-                            "text": "Obtenu une licence en Informatique, avec un accent sur les algorithmes, les structures de données, l'ingénierie logicielle et le développement web. Acquis une expérience pratique à travers divers projets de programmation et camps de formation.",
-                            "tags": null
-                        } 
+                            "title": "**Diplôme d'Ingénieur** en Informatique Industrielle",
+                            "info": "ENIM - École Nationale d'Ingénieurs de Monastir",
+                            "text": "Spécialisé en systèmes industriels et logiciels embarqués. Réalisation de projets pratiques en automatisation et conception de systèmes.",
+                            "tags": ["Systèmes Embarqués", "Automatisation", "C++"]
+                        }
                     }
                 },
-
                 {
                     "icon": {
                         "img": "images/pictures/place-2.png",
@@ -54,51 +50,49 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "01/01/2014",
-                        "end": "06/01/2014"
+                        "start": "09/01/2015",
+                        "end": "06/30/2017"
                     },
                     "locales": {
                         "en": {
-                            "title": "PHP Development **Nanodegree**",
-                            "info": "Udacity",
-                            "text": "Completed an intensive Nanodegree program focused on PHP development, covering essential skills like backend programming, database management, and web application deployment. This course provided a solid foundation in modern PHP practices.",
-                            "tags": ["PHP 8+", "Laravel", "MongoDB"]
+                            "title": "**Master's** in Industrial Computing",
+                            "info": "Université de Lorraine",
+                            "text": "Focused on automation and artificial intelligence. Completed a thesis on industrial process optimization using advanced algorithms.",
+                            "tags": ["Artificial Intelligence", "Automation", "Algorithm Design"]
                         },
                         "fr": {
-                            "title": "Nanodiplôme en **Développement PHP**",
-                            "info": "Udacity",
-                            "text": "Terminé un programme intensif de Nanodiplôme axé sur le développement PHP, couvrant des compétences essentielles telles que la programmation backend, la gestion de bases de données et le déploiement d'applications web. Ce cours a fourni une base solide dans les pratiques modernes de PHP.",
-                            "tags": null
-                        } 
+                            "title": "**Master** en Informatique Industrielle",
+                            "info": "Université de Lorraine",
+                            "text": "Axé sur l'automatisation et l'intelligence artificielle. Réalisation d'un mémoire sur l'optimisation des processus industriels à l'aide d'algorithmes avancés.",
+                            "tags": ["Intelligence Artificielle", "Automatisation", "Conception d'Algorithmes"]
+                        }
                     }
                 },
-
                 {
                     "icon": {
-                        "img": "images/pictures/place-6.png",
+                        "img": "images/pictures/place-3.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "09/01/2020",
-                        "end": "06/01/2022"
+                        "start": "09/01/2010",
+                        "end": "06/30/2012"
                     },
                     "locales": {
                         "en": {
-                            "title": "**Master's** in Artificial Intelligence",
-                            "info": "University of Paris",
-                            "text": "<p>Completed a comprehensive Master's program focused on cutting-edge AI topics, including:</p> <ul><li>Machine Learning</li><li>Natural Language Processing (NLP)</li><li>Neural Networks</li></ul> <p class='mt-3'>Applied research and theory to develop practical AI-driven solutions, combining academic excellence with real-world innovation.</p>",
-                            "tags": []
+                            "title": "**Preparatory Classes** in Computer Science",
+                            "info": "IPEIN - Preparatory Institute for Engineering Studies of Nabeul",
+                            "text": "Intensive two-year program focused on advanced mathematics, physics, and computer science fundamentals.",
+                            "tags": ["Mathematics", "Physics", "Algorithms"]
                         },
                         "fr": {
-                            "title": "**Master** en Intelligence Artificielle",
-                            "info": "Université de Paris",
-                            "text": "<p>J'ai terminé un programme de Master complet axé sur les sujets de pointe en IA, y compris:</p> <ul><li>Apprentissage Automatique</li><li>Traitement du Langage Naturel (TLN)</li><li>Réseaux Neuronaux</li></ul> <p class='mt-3'>J'ai appliqué la recherche et la théorie pour développer des solutions IA pratiques, alliant excellence académique et innovation réelle.</p>",
-                            "tags": []
-                        } 
+                            "title": "**Classes Préparatoires** en Informatique",
+                            "info": "IPEIN - Institut Préparatoire aux Études d'Ingénieur de Nabeul",
+                            "text": "Programme intensif de deux ans axé sur les mathématiques avancées, la physique et les fondamentaux en informatique.",
+                            "tags": ["Mathématiques", "Physique", "Algorithmes"]
+                        }
                     }
                 },
-
                 {
                     "icon": {
                         "img": "images/pictures/place-4.png",
@@ -106,22 +100,22 @@
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "09/01/2022",
-                        "end": "06/01/2024"
+                        "start": "09/01/2020",
+                        "end": "12/15/2021"
                     },
                     "locales": {
                         "en": {
-                            "title": "**PhD** in Computer Science",
-                            "info": "Harvard University",
-                            "text": "<p>Currently pursuing a PhD with a focus on deep learning and its real-world applications, particularly in:</p> <ul><li>Computer Vision</li><li>Innovative AI research</li><li>Developing novel algorithms for image recognition</li></ul> <p class='mt-3'>Engaged in cutting-edge research and contributing to AI advancement through publications in top-tier conferences.</p>",
-                            "tags": ["Deep Learning", "Computer Vision", "AI Research", "Algorithms"]
+                            "title": "Full Stack JavaScript **Bootcamp**",
+                            "info": "GoMyCode",
+                            "text": "Completed a full-stack web development bootcamp, focusing on MERN stack (MongoDB, Express.js, React, Node.js) and algorithm fundamentals. This program provided hands-on experience in building full-stack applications and reinforced core problem-solving skills.",
+                            "tags": ["MERN Stack", "Web Development", "Algorithms"]
                         },
                         "fr": {
-                            "title": "**Doctorat** en Informatique",
-                            "info": "Université de Harvard",
-                            "text": "<p>En cours de doctorat avec un accent sur l'apprentissage profond et ses applications pratiques, notamment dans:</p> <ul><li>Vision par Ordinateur</li><li>Recherche IA innovante</li><li>Développement de nouveaux algorithmes de reconnaissance d'images</li></ul> <p class='mt-3'>Impliqué dans des recherches de pointe et contribuant à l'avancement de l'IA par des publications dans des conférences de renom.</p>",
-                            "tags": ["Apprentissage Profond", "Vision par Ordinateur", "Recherche IA", "Algorithmes"]
-                        } 
+                            "title": "**Bootcamp** Full Stack JavaScript",
+                            "info": "GoMyCode",
+                            "text": "Suivi d'un bootcamp intensif en développement web full-stack, axé sur la pile MERN (MongoDB, Express.js, React, Node.js) et les bases des algorithmes. Ce programme a permis d'acquérir une expérience pratique dans la création d'applications full-stack et a renforcé les compétences en résolution de problèmes.",
+                            "tags": ["MERN Stack", "Développement Web", "Algorithmes"]
+                        }
                     }
                 }
             ]

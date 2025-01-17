@@ -73,7 +73,7 @@
 
         {
             "id": "more",
-            "faIcon": "fa-solid fa-contact",
+            "faIcon": "fa-solid fa-pen-to-square",
             "locales": {
                 "en": {"title": "Contact"},
                 "fr": {"title": "Contact"}
