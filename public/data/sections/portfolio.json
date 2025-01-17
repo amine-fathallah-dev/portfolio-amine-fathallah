@@ -49,17 +49,17 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-1.png",
+                        "img": "images/svg/logo.svg",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
                     "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://cash.com"}
+                        {"faIcon": "fa-solid fa-link", "href": "https://aminefathallahdev.com"}
                     ],
 
                     "media": {
-                        "youtubeVideo": "https://www.youtube.com/watch?v=MQe_MoJ7Iww",
+                        "youtubeVideo": null,
                         "screenshots": {
                             "aspectRatio": null,
                             "images": []
@@ -68,14 +68,14 @@
 
                     "locales": {
                         "en": {
-                            "title": "SmartCash",
-                            "text": "A finance website built using <b>Next.js</b>, allowing users to <b>track budgets</b> and manage their money with interactive charts and insights.",
-                            "tags": ["Next.js", "Finance", "Money"]
+                            "title": "My Portfolio",
+                            "text": "This portfolio website, built with <b>Vue.js</b>, highlights my professional journey and achievements in web development. It showcases my technical skills through diverse projects and offers a structured presentation of my expertise as a full-stack developer.",
+                            "tags": ["Vue.js", "Portfolio"]
                         },
                         "fr": {
-                            "title": "SmartCash",
-                            "text": "Un site web financier construit avec <b>Next.js</b>, permettant aux utilisateurs de <b>suivre les budgets</b> et de gérer leur argent avec des graphiques interactifs et des analyses.",
-                            "tags": ["Next.js", "Finance", "Argent"]
+                            "title": "Mon Portfolio",
+                            "text": "Ce site web portfolio, développé avec <b>Vue.js</b>, met en lumière mon parcours professionnel et mes réalisations dans le développement web. Il illustre mes compétences techniques à travers des projets variés et propose une présentation structurée de mon expertise en tant que développeur full-stack",
+                            "tags": ["Vue.js", "Portfolio"]
                         } 
                     }
                 },
@@ -83,7 +83,7 @@
                 {
                     "categoryId": "websites",
                     "icon": {
-                        "img": "images/pictures/project-logo-5.png",
+                        "img": "images/pictures/tomaia.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
@@ -102,14 +102,14 @@
 
                     "locales": {
                         "en": {
-                            "title": "Sweet Scoops",
-                            "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-                            "tags": ["WooCommerce", "Food", "Desserts"]
+                            "title": "Tunisie Tomaia",
+                            "text": "Tunisie Tomaia is a website built with <b>React</b>, showcasing a Tunisian company specializing in subcontracting the manufacturing of high-quality shoes that meet international standards.",
+                            "tags": ["React.js", "Chaussures"]
                         },
                         "fr": {
-                            "title": "Sweet Scoops",
-                            "text": "Un site de recettes construit avec <b>WordPress</b> et WooCommerce, présentant une riche collection de <b>recettes de desserts</b> et une plateforme de commerce électronique intégrée.",
-                            "tags": ["WooCommerce", "Cuisine", "Desserts"]
+                            "title": "Tunisie Tomaia",
+                            "text": "Tunisie Tomaia est un site web développé avec <b>React</b>, présentant une entreprise tunisienne spécialisée dans la sous-traitance de fabrication de chaussures de haute qualité, conformes aux normes internationales.",
+                            "tags": ["React.js", "Chaussures"]
                         } 
                     }
                 }
