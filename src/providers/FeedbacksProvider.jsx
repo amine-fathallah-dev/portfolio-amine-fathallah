@@ -1,27 +1,14 @@
-import React, {createContext, useContext, useEffect, useState} from 'react'
-import {useData} from "/src/providers/DataProvider.jsx"
-import {useUtils} from "/src/helpers/utils.js"
+import {createContext, useContext, useState} from 'react'
 
 const FeedbacksContext = createContext(null)
 export const useFeedbacks = () => useContext(FeedbacksContext)
 
 export const FeedbacksProvider = ({children}) => {
-    const utils = useUtils()
-    const {getSettings} = useData()
-    const settings = getSettings()
-
     const [spinnerActivities, setSpinnerActivities] = useState([])
-    const [animatedCursorEnabled, setAnimatedCursorEnabled] = useState(true)
-    const [animatedCursorActive, setAnimatedCursorActive] = useState(true)
-
     const [displayingNotification, setDisplayingNotification] = useState(null)
     const [displayingYoutubeVideo, setDisplayingYoutubeVideo] = useState(null)
     const [displayingGallery, setDisplayingGallery] = useState(null)
     const [pendingConfirmation, setPendingConfirmation] = useState(null)
-
-    useEffect(() => {
-        setAnimatedCursorEnabled(!utils.isTouchDevice() && settings["animatedCursorEnabled"])
-    }, [])
 
     // SPINNER...
     const showActivitySpinner = (activityId, message) => {
@@ -44,19 +31,6 @@ export const FeedbacksProvider = ({children}) => {
         setSpinnerActivities(prevActivities =>
             prevActivities.filter(activity => activity.id !== activityId)
         )
-    }
-
-    // ANIMATED CURSOR...
-    const isAnimatedCursorEnabled = () => {
-        return animatedCursorEnabled
-    }
-
-    const isAnimatedCursorActive = () => {
-        return animatedCursorActive
-    }
-
-    const toggleAnimatedCursorActive = () => {
-        setAnimatedCursorActive(!animatedCursorActive)
     }
 
     // NOTIFICATIONS...
@@ -113,21 +87,12 @@ export const FeedbacksProvider = ({children}) => {
         setDisplayingGallery(null)
     }
 
-    // OTHER METHODS...
-    const isModalOpen = () => {
-        return isShowingSpinner() || displayingYoutubeVideo || displayingGallery || pendingConfirmation
-    }
-
     return (
         <FeedbacksContext.Provider value={{
             isShowingSpinner,
             listSpinnerActivities,
             showActivitySpinner,
             hideActivitySpinner,
-
-            isAnimatedCursorEnabled,
-            isAnimatedCursorActive,
-            toggleAnimatedCursorActive,
 
             displayingNotification,
             displayNotification,
@@ -144,8 +109,6 @@ export const FeedbacksProvider = ({children}) => {
             pendingConfirmation,
             showConfirmationDialog,
             hideConfirmationDialog,
-
-            isModalOpen
         }}>
             {children}
         </FeedbacksContext.Provider>

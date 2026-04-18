@@ -9,7 +9,7 @@
         "fr": {
             "title": "Expérience",
             "title_long_prefix": "Résumé de mon",
-            "title_long": "Parcours **Professionel**"
+            "title_long": "Parcours **Professionnel**"
         } 
     },
 
@@ -23,26 +23,25 @@
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/gomycode.png",
+                        "img": "images/pictures/loreal.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "09/01/2020",
-                        "end": "12/15/2021"
+                        "start": "02/01/2023"
                     },
                     "locales": {
                         "en": {
                             "title": "**Full-Stack** Developer",
-                            "info": "GoMyCode",
-                            "text": "Contributed to the development of a full-stack MERN application for a shoe manufacturing company, showcasing products, activities, and job advertisements while integrating a contact form. Enhanced platform features, ensured high code quality, and resolved bugs to maintain system reliability.",
-                            "tags": ["React", "MongoDB", "Node.js", "Express", "Redux", "REST", "GitHub"]
+                            "info": "Capgemini — L'Oréal Group",
+                            "text": "Deployed as a senior developer within L'Oréal's engineering teams through Capgemini, working on large-scale internal products used by thousands of users across multiple countries. Redesigned the authentication system (SignUp / SignIn), improving security and UX. Overhauled the core Import Products feature, optimizing pipeline performance. Built and shipped a self-service QR code customization tool used across product lines. Developed BigQuery scheduled queries to track Looker Studio export performance and Product API call outcomes (Resolver project), enabling data-driven decisions for product and ops teams. Maintained code quality with Cypress E2E tests and SonarCloud static analysis. Full Google Cloud Platform environment.",
+                            "tags": ["React", "Node.js", "Google Cloud", "BigQuery", "Looker Studio", "Cypress", "SonarCloud", "SQL", "GitHub"]
                         },
                         "fr": {
                             "title": "Développeur **Full-Stack**",
-                            "info": "GoMyCode",
-                            "text": "Contribué au développement d'une application full-stack MERN pour une entreprise de fabrication de chaussures, mettant en avant les produits, activités et offres d'emploi tout en intégrant un formulaire de contact. Amélioration des fonctionnalités de la plateforme, garantie de la qualité du code et résolution des bugs pour assurer la fiabilité du système.",
-                            "tags": ["React", "MongoDB", "Node.js", "Express", "Redux", "REST", "GitHub"]
+                            "info": "Capgemini — L'Oréal Groupe",
+                            "text": "Intégré en tant que développeur senior au sein des équipes engineering de L'Oréal via Capgemini, sur des produits internes à grande échelle utilisés par des milliers d'utilisateurs dans plusieurs pays. Refonte du système d'authentification (SignUp / SignIn), améliorant la sécurité et l'expérience utilisateur. Restructuration de la fonctionnalité Import Products, optimisant les performances du pipeline. Conception et livraison d'un outil de personnalisation de QR codes en self-service. Développement de requêtes BigQuery planifiées pour le suivi des exports Looker Studio et des appels API produit (projet Resolver), permettant des décisions data-driven. Qualité de code maintenue via Cypress et SonarCloud. Environnement Google Cloud Platform.",
+                            "tags": ["React", "Node.js", "Google Cloud", "BigQuery", "Looker Studio", "Cypress", "SonarCloud", "SQL", "GitHub"]
                         } 
                     }
                 },
@@ -60,38 +59,39 @@
                         "en": {
                             "title": "**Full-Stack** Developer",
                             "info": "ITGA",
-                            "text": "Contributed to the design and development of front-end and back-end applications at ITGA using Angular, Node.js, and Flutter. Ensured application performance, quality, and responsiveness across web and mobile platforms. Provided priority-level support for incident resolution and bug fixes, achieving 80% test coverage using unit tests. Collaborated with Agile teams throughout multiple project phases.",
+                            "text": "Designed and developed front-end and back-end applications using Angular, Node.js, and Flutter. Achieved 80% unit test coverage with Jest. Provided priority support for production incidents and bug resolution. Operated in Agile teams across multiple project phases.",
                             "tags": ["Angular", "Flutter", "Node.js", "Jest", "Express", "Docker", "SonarCloud", "GitLab"]
                         },
                         "fr": {
                             "title": "Développeur **Full-Stack**",
                             "info": "ITGA",
-                            "text": "Contribué à la conception et au développement des applications front-end et back-end chez ITGA en utilisant Angular, Node.js et Flutter. Assuré la performance, la qualité et la réactivité des applications sur les plateformes web et mobiles. Fourniture d'un support prioritaire pour la résolution des incidents et des bugs, atteignant une couverture de 80 % grâce aux tests unitaires. Collaboration avec des équipes Agile tout au long des différentes phases des projets.",
+                            "text": "Conception et développement d'applications front-end et back-end avec Angular, Node.js et Flutter. Couverture de tests unitaires à 80% avec Jest. Support prioritaire pour les incidents de production et résolution de bugs. Travail en équipes Agile sur plusieurs phases de projet.",
                             "tags": ["Angular", "Flutter", "Node.js", "Jest", "Express", "Docker", "SonarCloud", "GitLab"]
                         } 
                     }
                 },
                 {
                     "icon": {
-                        "img": "images/pictures/loreal.png",
+                        "img": "images/pictures/gomycode.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
                     "dates": {
-                        "start": "02/01/2023"
+                        "start": "09/01/2020",
+                        "end": "12/15/2021"
                     },
                     "locales": {
                         "en": {
                             "title": "**Full-Stack** Developer",
-                            "info": "L'Oréal Group",
-                            "text": "Proactively revamped the authentication system for L’Oréal, significantly enhancing user experience and security in SignUp and SignIn processes. Redesigned the core Import Products feature, optimizing performance and streamlining operations. Developed and maintained robust unit tests and end-to-end tests with Cypress to ensure software reliability. Delivered and deployed a self-service QR code customization feature, contributing to the project's success. Quickly resolved critical bugs with hot fixes to minimize downtime and maintain seamless production operations.",
-                            "tags": ["React", "Node.js", "SQL", "Google Cloud", "Cypress", "SonarCloud", "GitHub"]
+                            "info": "GoMyCode",
+                            "text": "Developed a full-stack MERN application for a manufacturing company — product showcase, job listings, and contact form. Focused on code quality and application reliability.",
+                            "tags": ["React", "MongoDB", "Node.js", "Express", "Redux", "REST", "GitHub"]
                         },
                         "fr": {
                             "title": "Développeur **Full-Stack**",
-                            "info": "L'Oréal Groupe",
-                            "text": "Révision proactive du système d’authentification pour L’Oréal, améliorant significativement l’expérience utilisateur et la sécurité des processus d’inscription et de connexion. Refonte de la fonctionnalité principale Import Products, optimisant la performance et simplifiant les opérations. Développement et maintenance de tests unitaires et end-to-end robustes avec Cypress pour garantir la fiabilité logicielle. Livraison et déploiement d’une fonctionnalité de personnalisation de QR codes en self-service, contribuant au succès du projet. Résolution rapide de bugs critiques avec des correctifs immédiats, minimisant les interruptions et maintenant une opération continue fluide.",
-                            "tags": ["React", "Node.js", "SQL", "Google Cloud", "Cypress", "SonarCloud", "GitHub"]
+                            "info": "GoMyCode",
+                            "text": "Développement d'une application MERN complète pour une entreprise industrielle — vitrine produits, offres d'emploi et formulaire de contact. Accent sur la qualité du code et la fiabilité applicative.",
+                            "tags": ["React", "MongoDB", "Node.js", "Express", "Redux", "REST", "GitHub"]
                         } 
                     }
                 }

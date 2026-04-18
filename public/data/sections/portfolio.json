@@ -22,10 +22,10 @@
 
             "categories": [
                 {
-                    "id": "apps",
+                    "id": "saas",
                     "locales": {
-                        "en": {"singular": "App", "plural": "Apps"},
-                        "fr": {"singular": "App", "plural": "Apps"} 
+                        "en": {"singular": "SaaS", "plural": "SaaS"},
+                        "fr": {"singular": "SaaS", "plural": "SaaS"} 
                     }
                 },
                 {
@@ -36,27 +36,25 @@
                     }
                 },
                 {
-                    "id": "utilities",
+                    "id": "ecommerce",
                     "locales": {
-                        "en": {"singular": "Utility", "plural": "Utilities"},
-                        "fr": {"singular": "Utilitaire", "plural": "Utilitaires"} 
+                        "en": {"singular": "E-commerce", "plural": "E-commerce"},
+                        "fr": {"singular": "E-commerce", "plural": "E-commerce"} 
                     }
                 }
             ],
 
             "items": [
-                                
+
                 {
-                    "categoryId": "websites",
+                    "categoryId": "saas",
                     "icon": {
-                        "img": "images/svg/logo.svg",
+                        "img": "images/pictures/project-logo-1.png",
                         "fa": "",
                         "faColors": {"bg": null, "fill": null}
                     },
 
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://aminefathallahdev.com"}
-                    ],
+                    "links": [],
 
                     "media": {
                         "youtubeVideo": null,
@@ -68,14 +66,174 @@
 
                     "locales": {
                         "en": {
-                            "title": "My Portfolio",
-                            "text": "This portfolio website, built with <b>Vue.js</b>, highlights my professional journey and achievements in web development. It showcases my technical skills through diverse projects and offers a structured presentation of my expertise as a full-stack developer.",
-                            "tags": ["Vue.js", "Portfolio"]
+                            "title": "Planify — Booking Platform",
+                            "text": "SaaS booking platform for Tunisian hair and beauty salons, inspired by Planity. Full product from design to deployment: salon discovery, real-time appointment scheduling, admin dashboard, and mobile-first UX. Built with <b>Next.js 14</b>, <b>Supabase</b>, and <b>Tailwind CSS</b>. React Native mobile app in progress.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "React Native", "Vercel", "SaaS"]
                         },
                         "fr": {
-                            "title": "Mon Portfolio",
-                            "text": "Ce site web portfolio, développé avec <b>Vue.js</b>, met en lumière mon parcours professionnel et mes réalisations dans le développement web. Il illustre mes compétences techniques à travers des projets variés et propose une présentation structurée de mon expertise en tant que développeur full-stack",
-                            "tags": ["Vue.js", "Portfolio"]
+                            "title": "Planify — Plateforme de Réservation",
+                            "text": "Plateforme SaaS de réservation pour les salons de coiffure et de beauté tunisiens, inspirée de Planity. Produit complet du design au déploiement : découverte de salons, prise de rendez-vous en temps réel, dashboard admin, UX mobile-first. Développé avec <b>Next.js 14</b>, <b>Supabase</b> et <b>Tailwind CSS</b>. Application mobile React Native en cours.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "React Native", "Vercel", "SaaS"]
+                        } 
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "GM Auto — Luxury Car Showroom",
+                            "text": "Premium showcase for a luxury car sales and rental company. Dark gold aesthetic, immersive product galleries, and smooth animations. Built end-to-end with <b>Next.js 14</b>, <b>Supabase</b>, <b>Tailwind CSS</b>, and deployed on <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel", "Luxury"]
+                        },
+                        "fr": {
+                            "title": "GM Auto — Showroom Automobile Luxe",
+                            "text": "Vitrine premium pour une société de vente et location de voitures de luxe. Esthétique dark gold, galeries produits immersives et animations fluides. Développé de A à Z avec <b>Next.js 14</b>, <b>Supabase</b>, <b>Tailwind CSS</b>, déployé sur <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel", "Luxe"]
+                        } 
+                    }
+                },
+
+                {
+                    "categoryId": "ecommerce",
+                    "icon": {
+                        "img": "images/pictures/project-logo-3.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Halo Store — Fashion E-commerce",
+                            "text": "Minimalist luxury e-commerce platform for women's fashion, Tunisia-only. Cash-on-delivery payment flow, editorial product experience with Cormorant Garamond typography. Full stack: <b>Next.js 14</b>, <b>Supabase</b>, <b>Tailwind CSS</b>, deployed on <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel", "E-commerce"]
+                        },
+                        "fr": {
+                            "title": "Halo Store — E-commerce Mode",
+                            "text": "Plateforme e-commerce luxe minimaliste pour la mode féminine, marché tunisien. Paiement à la livraison, expérience produit éditoriale avec typographie Cormorant Garamond. Full stack : <b>Next.js 14</b>, <b>Supabase</b>, <b>Tailwind CSS</b>, déployé sur <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel", "E-commerce"]
+                        } 
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Karfoud Stadium — Field Booking",
+                            "text": "Mobile-first booking platform for a football field rental business in Tunisia. Public booking schedule, protected admin dashboard, real-time slot management. Built with <b>Next.js 14</b>, <b>Supabase</b>, <b>Tailwind CSS</b>. DNS configured on IONOS, deployed on <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel", "Mobile-first"]
+                        },
+                        "fr": {
+                            "title": "Karfoud Stadium — Réservation Terrain",
+                            "text": "Plateforme de réservation mobile-first pour la location d'un terrain de football en Tunisie. Planning public, dashboard admin protégé, gestion des créneaux en temps réel. Développé avec <b>Next.js 14</b>, <b>Supabase</b>, <b>Tailwind CSS</b>. DNS configuré sur IONOS, déployé sur <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel", "Mobile-first"]
+                        } 
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/project-logo-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "Sky-Net — Fiber Optic Showcase",
+                            "text": "High-impact showcase website for a fiber optic company in Bourgogne-Franche-Comté. Smooth scroll animations with Framer Motion, transactional email integration via Resend. Built with <b>Next.js 14</b>, <b>Tailwind CSS</b>, deployed on <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Tailwind CSS", "Framer Motion", "Resend", "Vercel"]
+                        },
+                        "fr": {
+                            "title": "Sky-Net — Vitrine Fibre Optique",
+                            "text": "Site vitrine haute-impact pour une société de fibre optique en Bourgogne-Franche-Comté. Animations de scroll fluides avec Framer Motion, intégration emails transactionnels via Resend. Développé avec <b>Next.js 14</b>, <b>Tailwind CSS</b>, déployé sur <b>Vercel</b>.",
+                            "tags": ["Next.js 14", "Tailwind CSS", "Framer Motion", "Resend", "Vercel"]
+                        } 
+                    }
+                },
+
+                {
+                    "categoryId": "saas",
+                    "icon": {
+                        "img": "images/pictures/project-logo-6.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "File-Flow — File Management Tool",
+                            "text": "Web-based file management and conversion utility. Clean interface for uploading, organizing, and processing files directly in the browser. Built with <b>Next.js 14</b>, <b>Supabase</b>, and <b>Tailwind CSS</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel"]
+                        },
+                        "fr": {
+                            "title": "File-Flow — Gestion de Fichiers",
+                            "text": "Outil web de gestion et conversion de fichiers. Interface épurée pour uploader, organiser et traiter des fichiers directement dans le navigateur. Développé avec <b>Next.js 14</b>, <b>Supabase</b> et <b>Tailwind CSS</b>.",
+                            "tags": ["Next.js 14", "Supabase", "Tailwind CSS", "Vercel"]
                         } 
                     }
                 },
@@ -102,14 +260,48 @@
 
                     "locales": {
                         "en": {
-                            "title": "Tunisie Tomaia",
-                            "text": "Tunisie Tomaia is a website built with <b>React</b>, showcasing a Tunisian company specializing in subcontracting the manufacturing of high-quality shoes that meet international standards.",
-                            "tags": ["React.js", "Chaussures"]
+                            "title": "Tunisie Tomaia — Corporate Website",
+                            "text": "Corporate website for a Tunisian company specializing in high-quality shoe manufacturing subcontracting. Built with <b>React</b>, mobile-responsive, clean and professional.",
+                            "tags": ["React.js", "Corporate"]
                         },
                         "fr": {
-                            "title": "Tunisie Tomaia",
-                            "text": "Tunisie Tomaia est un site web développé avec <b>React</b>, présentant une entreprise tunisienne spécialisée dans la sous-traitance de fabrication de chaussures de haute qualité, conformes aux normes internationales.",
-                            "tags": ["React.js", "Chaussures"]
+                            "title": "Tunisie Tomaia — Site Corporate",
+                            "text": "Site corporate pour une entreprise tunisienne spécialisée dans la sous-traitance de fabrication de chaussures de haute qualité. Développé avec <b>React</b>, responsive, propre et professionnel.",
+                            "tags": ["React.js", "Corporate"]
+                        } 
+                    }
+                },
+
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/svg/logo.svg",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://aminefathallah.com"}
+                    ],
+
+                    "media": {
+                        "youtubeVideo": null,
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+
+                    "locales": {
+                        "en": {
+                            "title": "This Portfolio",
+                            "text": "This portfolio website, built with <b>React</b> and <b>Vite</b>. Data-driven architecture with JSON content, dark/light theme, bilingual EN/FR, animated cursor, Swiper galleries, Chart.js, and EmailJS integration.",
+                            "tags": ["React", "Vite", "SCSS", "Portfolio"]
+                        },
+                        "fr": {
+                            "title": "Ce Portfolio",
+                            "text": "Ce site portfolio développé avec <b>React</b> et <b>Vite</b>. Architecture data-driven avec contenu JSON, thème dark/light, bilingue EN/FR, curseur animé, galeries Swiper, Chart.js et intégration EmailJS.",
+                            "tags": ["React", "Vite", "SCSS", "Portfolio"]
                         } 
                     }
                 }

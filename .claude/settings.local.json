@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m json.tool \"/c/Users/fatha/Documents/Projects/Claude projects/portfolio-amine-fathallah/public/data/settings.json\")",
+      "Bash(python3 -m json.tool \"/c/Users/fatha/Documents/Projects/Claude projects/portfolio-amine-fathallah/public/data/strings.json\")",
+      "Bash(node -e \"const fs=require\\('fs'\\); const data=JSON.parse\\(fs.readFileSync\\('./public/data/settings.json','utf8'\\)\\); console.log\\('settings.json is valid JSON'\\)\")",
+      "Bash(node -e \"const fs=require\\('fs'\\); const data=JSON.parse\\(fs.readFileSync\\('./public/data/strings.json','utf8'\\)\\); console.log\\('strings.json is valid JSON'\\)\")",
+      "Bash(grep -r '$z-index-animated-cursor' '/c/Users/fatha/Documents/Projects/Claude projects/portfolio-amine-fathallah/src' '--include=*.scss')",
+      "Bash(node -e \"const f = require\\('./public/data/settings.json'\\); console.log\\(JSON.stringify\\(f.supportedLanguages, null, 2\\)\\);\")"
+    ]
+  }
+}

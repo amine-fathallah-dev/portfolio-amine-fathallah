@@ -7,18 +7,24 @@ header.nav-header {
     justify-content: center;
     flex-direction: column;
 
+    .avatar-wrapper {
+        position: relative;
+        display: inline-block;
+
+        .status-badge {
+            position: absolute;
+            bottom: 2px;
+            right: 2px;
+            margin: 0;
+        }
+    }
+
     .img-view-avatar {
         border: 6px solid var(--theme-nav-light);
         border-radius: calc($standard-border-radius * 2);
-
+        display: block;
         width: 140px;
         height: 140px;
-    }
-
-    .status-badge {
-        position: absolute;
-        margin-left: 120px;
-        margin-top: 50px;
     }
 
     .name {
@@ -84,14 +90,30 @@ header.nav-header {
         }
     }
 
+    .cv-download-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-family: $custom-subheadings-font-family;
+        font-weight: bold;
+        font-size: 0.8rem;
+        border-radius: 2rem;
+        padding: 0.35rem 1rem;
+        text-decoration: none;
+        color: var(--theme-dark) !important;
+
+        &:hover, &:focus, &:active {
+            background-color: var(--theme-highlight) !important;
+            color: var(--theme-dark) !important;
+            transform: none !important;
+            box-shadow: none !important;
+            transition: none !important;
+        }
+    }
+
     &-shrink {
         .info {
             display: none;
-        }
-
-        .status-badge {
-            margin-left: 65px;
-            margin-top: 65px;
         }
 
         .img-view-avatar {

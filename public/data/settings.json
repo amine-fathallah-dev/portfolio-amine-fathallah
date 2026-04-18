@@ -1,6 +1,5 @@
 {
     "version": "1.0.0",
-    "animatedCursorEnabled": true,
     "fullScreenButtonEnabled": true,
 
     "preloader": {
@@ -16,8 +15,8 @@
         "profilePictureUrl": "images/pictures/avatar.jpg",
 
         "locales": {
-            "en": {"role": "Web Developer"},
-            "fr": {"role": "Développeur Web"}
+            "en": {"role": "Full-Stack Developer · Google Cloud"},
+            "fr": {"role": "Développeur Full-Stack · Google Cloud"}
         }
     },
 
@@ -26,8 +25,8 @@
         "available": true,
 
         "locales": {
-            "en": {"message": "Available for freelance!"},
-            "fr": {"message": "Disponible pour freelance !"}
+            "en": {"message": "Open to new missions"},
+            "fr": {"message": "Disponible pour une nouvelle mission"}
         }
     },
 

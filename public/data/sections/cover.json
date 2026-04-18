@@ -6,15 +6,13 @@
             "title_long_prefix": "Hello...",
             "title_long": "I'm **Amine Fathallah!**"
         },
-
         "fr": {
             "title": "Salut !",
             "title_menu": "À propos",
             "title_long_prefix": "Salut...",
             "title_long": "Je suis **Amine Fathallah!**"
-        } 
+        }
     },
-
     "articles": [
         {
             "id": "contact_list",
@@ -25,84 +23,127 @@
             },
             "locales": {
                 "en": {},
-                "fr": {} 
+                "fr": {}
             },
-
             "items": [
                 {
                     "value": "Paris – FR",
                     "links": [
-                        {"href": null}
+                        {
+                            "href": null
+                        }
                     ],
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-city",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     }
                 },
                 {
                     "value": "amine.fathallah.dev@gmail.com",
                     "links": [
-                        {"href": "mailto:amine.fathallah.dev@gmail.com"}
+                        {
+                            "href": "mailto:amine.fathallah.dev@gmail.com"
+                        }
                     ],
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-envelope",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     }
                 },
                 {
                     "value": "@amine-fathallah-dev",
                     "links": [
-                        {"href": "https://github.com/amine-fathallah-dev"}
+                        {
+                            "href": "https://github.com/amine-fathallah-dev"
+                        }
                     ],
                     "icon": {
                         "img": null,
                         "fa": "fa-brands fa-github",
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
+                    }
+                },
+                {
+                    "value": "linkedin.com/in/amine-fathallah",
+                    "links": [
+                        {
+                            "href": "https://www.linkedin.com/in/amine-fathallah-96739186/"
+                        }
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-linkedin",
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     }
                 }
             ]
         },
-
         {
             "id": "short_description",
             "component": "ArticleInfoBlock",
             "config": {},
             "locales": {
-                "en": {"title": "**A little bit** about me..."},
-                "fr": {"title": "**Un peu** à propos de moi..."} 
+                "en": {
+                    "title": "**A little bit** about me..."
+                },
+                "fr": {
+                    "title": "**Un peu** à propos de moi..."
+                }
             },
-
             "items": [
                 {
                     "icon": {
                         "img": "images/svg/logo.svg",
                         "fa": null,
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
-                        "en": {"text": "<p>I am a Full-Stack Developer with over 5 years of experience, specializing in building high-performance, scalable web applications tailored to meet unique client needs. </p><p>My backend expertise in <b>Node.js</b> is complemented by advanced frontend skills with <b>React</b>. </p><p>I have worked on a variety of projects leveraging <b>cloud</b> tools, technologies such as <b>Angular</b> and <b>Flutter</b>, and quality assurance platforms like <b>SonarCloud</b>. </p><p>These experiences have enabled me to excel in redesigning critical systems, optimizing performance, and implementing innovative features. </p><p>Always attentive to my clients' needs, I am passionate about turning your ideas into robust, effective solutions. Let’s collaborate to bring your projects to life!</p>"},
-                        "fr": {"text": "<p>Développeur Full-Stack avec plus de 5 ans d'expérience, je suis spécialisé dans la création d'applications web performantes, évolutives et adaptées aux besoins spécifiques de mes clients. </p><p>Mon expertise backend avec <b>Node.js</b> s'accompagne de compétences avancées en développement frontend grâce à <b>React</b>.</p><p>J'ai eu l'opportunité de travailler sur des projets diversifiés, intégrant des outils <b>cloud</b>, des technologies comme <b>Angular</b> et <b>Flutter</b>, ainsi que des plateformes de qualité telles que <b>SonarCloud</b>. </p><p>Ces expériences m'ont permis de maîtriser la refonte de systèmes critiques, l'optimisation des performances et l'implémentation de fonctionnalités innovantes.</p><p>Toujours à l’écoute des besoins de mes partenaires, je suis enthousiaste à l'idée de transformer vos idées en solutions concrètes, robustes et efficaces. Travaillons ensemble pour donner vie à vos projets !</p>"} 
+                        "en": {
+                            "text": "<p>Full-Stack Developer with 5+ years of experience, currently working within <b>L'Oréal Group</b>'s engineering teams through <b>Capgemini</b> — building large-scale internal products used across multiple countries.</p><p>My stack is centered on <b>React</b>, <b>Node.js</b>, and <b>Google Cloud Platform</b> (BigQuery, Looker Studio). I'm currently completing a <b>Google Professional Cloud Developer</b> certification.</p><p>Beyond enterprise work, I design and ship complete products end-to-end — from architecture to deployment — with a strong sense of product vision and UX.</p><p>I'm looking for challenging long-term missions with solid organizations. Let's build something that matters.</p>"
+                        },
+                        "fr": {
+                            "text": "<p>Développeur Full-Stack avec plus de 5 ans d'expérience, actuellement en mission au sein des équipes engineering du <b>Groupe L'Oréal</b> via <b>Capgemini</b> — sur des produits internes à grande échelle utilisés dans plusieurs pays.</p><p>Ma stack est centrée sur <b>React</b>, <b>Node.js</b> et <b>Google Cloud Platform</b> (BigQuery, Looker Studio). Je prépare actuellement la certification <b>Google Professional Cloud Developer</b>.</p><p>En parallèle, je conçois et livre des produits complets de A à Z — de l'architecture au déploiement — avec une vraie vision produit et un sens fort de l'UX.</p><p>Je recherche des missions longue durée chez des organisations solides. Construisons quelque chose qui compte.</p>"
+                        }
                     }
                 }
             ]
         },
-
         {
             "id": "testimonials",
             "component": "ArticleTestimonials",
             "config": {},
             "locales": {
-                "en": {"title": "Client **testimonials**"},
-                "fr": {"title": "Témoignages de **clients**"} 
+                "en": {
+                    "title": "Client **testimonials**"
+                },
+                "fr": {
+                    "title": "Témoignages de **clients**"
+                }
             },
-
             "items": [
                 {
                     "value": "L.Alexis",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {
+                            "href": "https://linkedin.com"
+                        }
                     ],
                     "icon": {
                         "img": "images/pictures/person-3.png",
@@ -123,12 +164,17 @@
                 {
                     "value": "A.Marc",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {
+                            "href": "https://linkedin.com"
+                        }
                     ],
                     "icon": {
                         "img": "images/pictures/person-3.png",
                         "fa": null,
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
@@ -144,12 +190,17 @@
                 {
                     "value": "S.Romuald",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {
+                            "href": "https://linkedin.com"
+                        }
                     ],
                     "icon": {
                         "img": "images/pictures/person-3.png",
                         "fa": null,
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
@@ -165,12 +216,17 @@
                 {
                     "value": "B.Vincent",
                     "links": [
-                        {"href": "https://linkedin.com"}
+                        {
+                            "href": "https://linkedin.com"
+                        }
                     ],
                     "icon": {
                         "img": "images/pictures/person-3.png",
                         "fa": null,
-                        "faColors": {"bg": null, "fill": null}
+                        "faColors": {
+                            "bg": null,
+                            "fill": null
+                        }
                     },
                     "locales": {
                         "en": {
@@ -184,9 +240,7 @@
                     }
                 }
             ]
-
         },
-
         {
             "id": "interests",
             "component": "ArticleGrid",
@@ -194,10 +248,13 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Personal **interests**"},
-                "fr": { "title": "Intérêts **personnels** " } 
+                "en": {
+                    "title": "Personal **interests**"
+                },
+                "fr": {
+                    "title": "Intérêts **personnels** "
+                }
             },
-
             "items": [
                 {
                     "icon": {
@@ -214,10 +271,9 @@
                         "fr": {
                             "title": "Investir",
                             "info": "Explorer les marchés des cryptomonnaies et apprendre la technologie blockchain."
-                        } 
+                        }
                     }
                 },
-
                 {
                     "icon": {
                         "img": null,
@@ -233,10 +289,9 @@
                         "fr": {
                             "title": "Conception UX",
                             "info": "Étudier les principes de l'expérience utilisateur."
-                        } 
+                        }
                     }
                 },
-
                 {
                     "icon": {
                         "img": null,
@@ -252,7 +307,7 @@
                         "fr": {
                             "title": "Retouche photo",
                             "info": "Améliorer des photos avec des techniques de montage créatives."
-                        } 
+                        }
                     }
                 }
             ]

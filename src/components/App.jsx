@@ -1,8 +1,6 @@
 import "/src/styles/app.scss"
-import React, {useEffect, useState} from 'react'
 import {useData} from "/src/providers/DataProvider.jsx"
 import Portfolio from "/src/components/Portfolio.jsx"
-import {AnimatedCursor} from "/src/components/feedbacks/AnimatedCursor"
 import ActivitySpinner from "/src/components/feedbacks/ActivitySpinner.jsx"
 import ImageCache from "/src/components/generic/ImageCache.jsx"
 import YoutubeModal from "/src/components/modals/YoutubeModal.jsx"
@@ -12,7 +10,7 @@ import ConfirmationWindow from "/src/components/modals/ConfirmationWindow.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
 
 function App() {
-    const {listImagesForCache} = useData()
+const {listImagesForCache} = useData()
 
     const imageList = listImagesForCache()
 
@@ -28,9 +26,6 @@ function App() {
 function AppFeedbacks() {
     const {
         listSpinnerActivities,
-        isAnimatedCursorEnabled,
-        isAnimatedCursorActive,
-        isModalOpen,
         displayingNotification,
         killNotification,
         displayingYoutubeVideo,
@@ -41,22 +36,12 @@ function AppFeedbacks() {
         hideConfirmationDialog
     } = useFeedbacks()
 
-
     const spinnerActivities = listSpinnerActivities()
-    const animatedCursorEnabled = isAnimatedCursorEnabled()
-    const animatedCursorActive = isAnimatedCursorActive()
-    const modalOpen = isModalOpen()
 
     return (
         <>
             {spinnerActivities && (
                 <ActivitySpinner activities={spinnerActivities}/>
-            )}
-
-            {isAnimatedCursorEnabled() && (
-                <AnimatedCursor enabled={animatedCursorEnabled}
-                                active={animatedCursorActive}
-                                modalOpen={modalOpen}/>
             )}
 
             {displayingNotification && (

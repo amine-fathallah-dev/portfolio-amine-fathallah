@@ -11,7 +11,6 @@ import NavHeader from "/src/components/nav/desktop/NavHeader.jsx"
 import {NavSidebarGroup, NavSidebarGroupItem} from "/src/components/nav/desktop/NavSidebarGroup"
 import LanguagePicker from "/src/components/widgets/LanguagePicker.jsx"
 import ThemePicker from "/src/components/widgets/ThemePicker.jsx"
-import CursorToggleButton from "/src/components/widgets/CursorToggleButton.jsx"
 import NavLink from "/src/components/nav/desktop/NavLink.jsx"
 import {useWindow} from "/src/providers/WindowProvider.jsx"
 import {useFeedbacks} from "/src/providers/FeedbacksProvider.jsx"
@@ -106,7 +105,6 @@ function NavSidebarLinks({shouldShrink, sections}) {
 function NavSidebarBottomMenu({shouldShrink}) {
     const {canChangeLanguage} = useLanguage()
     const {canChangeTheme} = useTheme()
-    const {isAnimatedCursorEnabled} = useFeedbacks()
 
     return (
         <NavSidebarGroup direction={`horizontal`} shrink={shouldShrink}>
@@ -117,12 +115,6 @@ function NavSidebarBottomMenu({shouldShrink}) {
             <NavSidebarGroupItem visible={canChangeTheme}>
                 <ThemePicker shrink={true}/>
             </NavSidebarGroupItem>
-
-            {!shouldShrink && (
-                <NavSidebarGroupItem visible={isAnimatedCursorEnabled()}>
-                    <CursorToggleButton/>
-                </NavSidebarGroupItem>
-            )}
         </NavSidebarGroup>
     )
 }
